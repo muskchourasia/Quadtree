@@ -1,0 +1,30 @@
+Quadtree:-
+A quadtree is a tree data structure in which each internal node has exactly four children. Quadtrees are the two-dimensional analog of octrees and are most often used to partition a two-dimensional space by recursively subdividing it into four quadrants or regions. The data associated with a leaf cell varies by application, but the leaf cell represents a "unit of interesting spatial information". 
+
+Types of Quadtree:-
+1.Region quadtree
+The region quadtree represents a partition of space in two dimensions by decomposing the region into four equal quadrants, subquadrants, and so on with each leaf node containing data corresponding to a specific subregion. Each node in the tree either has exactly four children, or has no children (a leaf node). The height of quadtrees that follow this decomposition strategy (i.e. subdividing subquadrants as long as there is interesting data in the subquadrant for which more refinement is desired) is sensitive to and dependent on the spatial distribution of interesting areas in the space being decomposed. The region quadtree is a type of trie. 
+
+2.Point quadtree
+The point quadtree is an adaptation of a binary tree used to represent two-dimensional point data. It shares the features of all quadtrees but is a true tree as the center of a subdivision is always on a point. It is often very efficient in comparing two-dimensional, ordered data points, usually operating in O(log n) time. Point quadtrees are worth mentioning for completeness, but they have been surpassed by k-d trees as tools for generalized binary search.
+
+
+
+
+
+Warnock Algorithm:-
+The Warnock algorithm is a hidden surface algorithm invented by John Warnock that is typically used in the field of computer graphics. It solves the problem of rendering a complicated image by recursive subdivision of a scene until areas are obtained that are trivial to compute. In other words, if the scene is simple enough to compute efficiently then it is rendered; otherwise it is divided into smaller parts which are likewise tested for simplicity.
+
+
+Input to be given:-
+11
+3
+4
+1
+4
+2
+3
+3
+0
+0
+320
